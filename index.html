@@ -1,0 +1,621 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Grid System</title>
+
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+		<link rel="stylesheet" href="fontawesome/css/font-awesome.css">
+
+		<style>
+			.element{
+				height: 100px;
+			}
+		</style>
+	</head>
+
+	<body>
+		<div class="container pt-3">
+
+			<div class="row m-3">
+				<div class="col col-12 border border-success rounded-top product-header">
+					<div class="row">
+						<div class="col col-lg-4 col-sm-12 col-12 p-3">
+							<div class="custom-control custom-radio">
+								<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+								<label class="custom-control-label" for="customRadio1">Nama brand</label>
+							</div>
+						</div>
+						<div class="col col-lg-8 col-sm-12 col-12 text-right p-3">
+							<i class="fa fa-list"></i> Jl. Petemon II no. 114 Surabaya, Jawa Timur
+						</div>
+					</div>
+				</div>
+				
+				<div class="col col-12 border border-success product-body rounded-0 border-top-0">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="row">
+								<div class="col-lg-12 pt-3 pb-3 text-center">
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck1">
+										<label class="custom-control-label" for="customCheck1">
+											<img src="images/default.png" alt="Defaut pic" class="img-thumbnail">
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 align-bottom">
+							<div class="row">
+								<div class="col-lg-7 pt-3 pb-3">
+									<div class="row">
+										<div class="col-12">
+											<h6 class="font-weight-bold">Nama produk</h6>
+										</div>
+										<div class="col-12">
+											<small>Size: 41</small>
+										</div>
+										<div class="col-12">
+											<small>Color: Blue</small>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-5 pt-3 pb-3">
+									<div class="row">
+										<div class="col col-lg-12 text-center mb-2">
+											<button class="btn btn-outline-primary" type="button"><i class="fa fa-minus"></i></button>
+											<button class="btn btn-outline-primary" type="button"><i class="fa fa-plus"></i></button>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-lg-12">
+											<button class="btn btn-secondary w-100">Wishlist</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 col-sm-12 pt-3">
+							<div class="row">
+								<div class="col col-lg-5 col-12 d-none d-md-block">
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100"><del>Rp. 350.000</del></small>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+								<div class="col col-lg-5 col-12 d-none d-md-block">
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100 text-warning">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-12 d-block d-lg-none">
+									<div class="row">
+										<div class="col col-6 text-left">
+											<small class="w-100 font-weight-bold">Harga Satuan</small>
+										</div>
+										<div class="col col-6 text-right">
+											<small><del>Rp. 350.000</del></small>
+											<small>Rp. 150.000</small>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-6 text-left">
+											<small class="w-100 font-weight-bold">Sub Total</small>
+										</div>
+										<div class="col col-6 text-right">
+											<small class="w-100 text-warning">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-lg-2 col-12 text-center pb-3">
+									<a href="javascript: void(0)" class="text-secondary btn btn-warning"><i class="fa fa-trash"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col col-12 border border-success product-body rounded-0 border-top-0">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="row">
+								<div class="col-lg-12 pt-3 pb-3 text-center">
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck1">
+										<label class="custom-control-label" for="customCheck1">
+											<img src="images/default.png" alt="Defaut pic" class="img-thumbnail">
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 align-bottom">
+							<div class="row">
+								<div class="col-lg-7 pt-3 pb-3">
+									<div class="row">
+										<div class="col-12">
+											<h6 class="font-weight-bold">Nama produk</h6>
+										</div>
+										<div class="col-12">
+											<small>Size: 41</small>
+										</div>
+										<div class="col-12">
+											<small>Color: Blue</small>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-5 pt-3 pb-3">
+									<div class="row">
+										<div class="col col-lg-12 text-center mb-2">
+											<button class="btn btn-outline-primary" type="button"><i class="fa fa-minus"></i></button>
+											<button class="btn btn-outline-primary" type="button"><i class="fa fa-plus"></i></button>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-lg-12">
+											<button class="btn btn-secondary w-100">Wishlist</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 col-sm-12 pt-3">
+							<div class="row">
+								<div class="col col-lg-5 col-12 d-none d-md-block">
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100"><del>Rp. 350.000</del></small>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+								<div class="col col-lg-5 col-12 d-none d-md-block">
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100 text-warning">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-12 d-block d-lg-none">
+									<div class="row">
+										<div class="col col-6 text-left">
+											<small class="w-100 font-weight-bold">Harga Satuan</small>
+										</div>
+										<div class="col col-6 text-right">
+											<small><del>Rp. 350.000</del></small>
+											<small>Rp. 150.000</small>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-6 text-left">
+											<small class="w-100 font-weight-bold">Sub Total</small>
+										</div>
+										<div class="col col-6 text-right">
+											<small class="w-100 text-warning">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-lg-2 col-12 text-center pb-3">
+									<a href="javascript: void(0)" class="text-secondary btn btn-warning"><i class="fa fa-trash"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col col-12 border border-success product-body rounded-bottom border-top-0">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="row">
+								<div class="col-lg-12 pt-3 pb-3 text-center">
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck1">
+										<label class="custom-control-label" for="customCheck1">
+											<img src="images/default.png" alt="Defaut pic" class="img-thumbnail">
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 align-bottom">
+							<div class="row">
+								<div class="col-lg-7 pt-3 pb-3">
+									<div class="row">
+										<div class="col-12">
+											<h6 class="font-weight-bold">Nama produk</h6>
+										</div>
+										<div class="col-12">
+											<small>Size: 41</small>
+										</div>
+										<div class="col-12">
+											<small>Color: Blue</small>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-5 pt-3 pb-3">
+									<div class="row">
+										<div class="col col-lg-12 text-center mb-2">
+											<button class="btn btn-outline-primary" type="button"><i class="fa fa-minus"></i></button>
+											<button class="btn btn-outline-primary" type="button"><i class="fa fa-plus"></i></button>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-lg-12">
+											<button class="btn btn-secondary w-100">Wishlist</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 col-sm-12 pt-3">
+							<div class="row">
+								<div class="col col-lg-5 col-12 d-none d-md-block">
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100"><del>Rp. 350.000</del></small>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+								<div class="col col-lg-5 col-12 d-none d-md-block">
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100 text-warning">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-12 d-block d-lg-none">
+									<div class="row">
+										<div class="col col-6 text-left">
+											<small class="w-100 font-weight-bold">Harga Satuan</small>
+										</div>
+										<div class="col col-6 text-right">
+											<small><del>Rp. 350.000</del></small>
+											<small>Rp. 150.000</small>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-6 text-left">
+											<small class="w-100 font-weight-bold">Sub Total</small>
+										</div>
+										<div class="col col-6 text-right">
+											<small class="w-100 text-warning">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-lg-2 col-12 text-center pb-3">
+									<a href="javascript: void(0)" class="text-secondary btn btn-warning"><i class="fa fa-trash"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row m-3">
+				<div class="col col-12 border border-success rounded-top product-header">
+					<div class="row">
+						<div class="col col-lg-4 col-sm-12 col-12 p-3">
+							<div class="custom-control custom-radio">
+								<input type="radio" id="customRadio1" name="customRadio" class="custom-control-input">
+								<label class="custom-control-label" for="customRadio1">Nama brand</label>
+							</div>
+						</div>
+						<div class="col col-lg-8 col-sm-12 col-12 text-right p-3">
+							<i class="fa fa-list"></i> Jl. Petemon II no. 114 Surabaya, Jawa Timur
+						</div>
+					</div>
+				</div>
+				
+				<div class="col col-12 border border-success product-body rounded-0 border-top-0">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="row">
+								<div class="col-lg-12 pt-3 pb-3 text-center">
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck1">
+										<label class="custom-control-label" for="customCheck1">
+											<img src="images/default.png" alt="Defaut pic" class="img-thumbnail">
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 align-bottom">
+							<div class="row">
+								<div class="col-lg-7 pt-3 pb-3">
+									<div class="row">
+										<div class="col-12">
+											<h6 class="font-weight-bold">Nama produk</h6>
+										</div>
+										<div class="col-12">
+											<small>Size: 41</small>
+										</div>
+										<div class="col-12">
+											<small>Color: Blue</small>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-5 pt-3 pb-3">
+									<div class="row">
+										<div class="col col-lg-12 text-center mb-2">
+											<button class="btn btn-outline-primary" type="button"><i class="fa fa-minus"></i></button>
+											<button class="btn btn-outline-primary" type="button"><i class="fa fa-plus"></i></button>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-lg-12">
+											<button class="btn btn-secondary w-100">Wishlist</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 col-sm-12 pt-3">
+							<div class="row">
+								<div class="col col-lg-5 col-12 d-none d-md-block">
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100"><del>Rp. 350.000</del></small>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+								<div class="col col-lg-5 col-12 d-none d-md-block">
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100 text-warning">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-12 d-block d-lg-none">
+									<div class="row">
+										<div class="col col-6 text-left">
+											<small class="w-100 font-weight-bold">Harga Satuan</small>
+										</div>
+										<div class="col col-6 text-right">
+											<small><del>Rp. 350.000</del></small>
+											<small>Rp. 150.000</small>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-6 text-left">
+											<small class="w-100 font-weight-bold">Sub Total</small>
+										</div>
+										<div class="col col-6 text-right">
+											<small class="w-100 text-warning">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-lg-2 col-12 text-center pb-3">
+									<a href="javascript: void(0)" class="text-secondary btn btn-warning"><i class="fa fa-trash"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col col-12 border border-success product-body rounded-0 border-top-0">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="row">
+								<div class="col-lg-12 pt-3 pb-3 text-center">
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck1">
+										<label class="custom-control-label" for="customCheck1">
+											<img src="images/default.png" alt="Defaut pic" class="img-thumbnail">
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 align-bottom">
+							<div class="row">
+								<div class="col-lg-7 pt-3 pb-3">
+									<div class="row">
+										<div class="col-12">
+											<h6 class="font-weight-bold">Nama produk</h6>
+										</div>
+										<div class="col-12">
+											<small>Size: 41</small>
+										</div>
+										<div class="col-12">
+											<small>Color: Blue</small>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-5 pt-3 pb-3">
+									<div class="row">
+										<div class="col col-lg-12 text-center mb-2">
+											<button class="btn btn-outline-primary" type="button"><i class="fa fa-minus"></i></button>
+											<button class="btn btn-outline-primary" type="button"><i class="fa fa-plus"></i></button>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-lg-12">
+											<button class="btn btn-secondary w-100">Wishlist</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 col-sm-12 pt-3">
+							<div class="row">
+								<div class="col col-lg-5 col-12 d-none d-md-block">
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100"><del>Rp. 350.000</del></small>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+								<div class="col col-lg-5 col-12 d-none d-md-block">
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100 text-warning">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-12 d-block d-lg-none">
+									<div class="row">
+										<div class="col col-6 text-left">
+											<small class="w-100 font-weight-bold">Harga Satuan</small>
+										</div>
+										<div class="col col-6 text-right">
+											<small><del>Rp. 350.000</del></small>
+											<small>Rp. 150.000</small>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-6 text-left">
+											<small class="w-100 font-weight-bold">Sub Total</small>
+										</div>
+										<div class="col col-6 text-right">
+											<small class="w-100 text-warning">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-lg-2 col-12 text-center pb-3">
+									<a href="javascript: void(0)" class="text-secondary btn btn-warning"><i class="fa fa-trash"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<div class="col col-12 border border-success product-body rounded-bottom border-top-0">
+					<div class="row">
+						<div class="col-lg-3 col-sm-6">
+							<div class="row">
+								<div class="col-lg-12 pt-3 pb-3 text-center">
+									<div class="custom-control custom-checkbox">
+										<input type="checkbox" class="custom-control-input" id="customCheck1">
+										<label class="custom-control-label" for="customCheck1">
+											<img src="images/default.png" alt="Defaut pic" class="img-thumbnail">
+										</label>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-4 col-sm-6 align-bottom">
+							<div class="row">
+								<div class="col-lg-7 pt-3 pb-3">
+									<div class="row">
+										<div class="col-12">
+											<h6 class="font-weight-bold">Nama produk</h6>
+										</div>
+										<div class="col-12">
+											<small>Size: 41</small>
+										</div>
+										<div class="col-12">
+											<small>Color: Blue</small>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-5 pt-3 pb-3">
+									<div class="row">
+										<div class="col col-lg-12 text-center mb-2">
+											<button class="btn btn-outline-primary" type="button"><i class="fa fa-minus"></i></button>
+											<button class="btn btn-outline-primary" type="button"><i class="fa fa-plus"></i></button>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-lg-12">
+											<button class="btn btn-secondary w-100">Wishlist</button>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-5 col-sm-12 pt-3">
+							<div class="row">
+								<div class="col col-lg-5 col-12 d-none d-md-block">
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100"><del>Rp. 350.000</del></small>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+								<div class="col col-lg-5 col-12 d-none d-md-block">
+									<div class="row">
+										<div class="col col-12 text-right">
+											<small class="w-100 text-warning">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-12 d-block d-lg-none">
+									<div class="row">
+										<div class="col col-6 text-left">
+											<small class="w-100 font-weight-bold">Harga Satuan</small>
+										</div>
+										<div class="col col-6 text-right">
+											<small><del>Rp. 350.000</del></small>
+											<small>Rp. 150.000</small>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col col-6 text-left">
+											<small class="w-100 font-weight-bold">Sub Total</small>
+										</div>
+										<div class="col col-6 text-right">
+											<small class="w-100 text-warning">Rp. 150.000</small>
+										</div>
+									</div>
+								</div>
+
+								<div class="col col-lg-2 col-12 text-center pb-3">
+									<a href="javascript: void(0)" class="text-secondary btn btn-warning"><i class="fa fa-trash"></i></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</body>
+
+</html>
